@@ -35,3 +35,8 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
 ## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
 [Download Dataset (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
 
+## Atals-to-Patient Registration
+Please visit https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/blob/main/TransMorph_on_IXI.md for instructions on network training, inference, and evaluation using this dataset.
+
+### <a href="https://junyuchen245.github.io"> About Me</a>
+
