@@ -29,7 +29,7 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
   # image: a preprocessed T1-weighted brain MRI volume. Shape: 160 x 192 x 224 Intensity: [0,1]
   # label: the corresponding subcortical segmentations. Shape: 160 x 192 x 224
   ```
-- ***Label map:*** A detailed description of the labels and the corresponding indexing values is provided [here](https://github.com/junyuchen245/Preprocessed_IXI_Dataset/blob/main/label_info.txt).
+- ***Label map:*** A description of each label and the corresponding indexing value is provided [here](https://github.com/junyuchen245/Preprocessed_IXI_Dataset/blob/main/label_info.txt).
 - ***Image size:*** Each image and label map has a size of `160 x 192 x 224`.
 - ***Normalization:*** The intensity values of each image volume are normalized into a range `[0,1]`.
 ## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">]()
