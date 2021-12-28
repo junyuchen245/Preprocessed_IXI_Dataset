@@ -2,7 +2,16 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
 
 <img src="https://github.com/junyuchen245/Preprocessed_IXI_Dataset/blob/main/IXI_dataset.jpg" width="1000"/>
+:exclamation: Our preprocessed IXI dataset is made available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. If you use this dataset, you should acknowledge the TransMorph paper:
 
+    @article{chen2021transmorph,
+    title={TransMorph: Transformer for unsupervised medical image registration},
+    author={Chen, Junyu and Du, Yong and He, Yufan and Segars, William P and Li, Ye and Frey, Eric C},
+    journal={arXiv preprint arXiv:2111.10480},
+    year={2021}
+    }
+
+**and** acknowledge the source of the IXI data: https://brain-development.org/ixi-dataset/ 
 ## About the Dataset
 This repository contains a preprocessed IXI brain MRI dataset (https://brain-development.org/ixi-dataset/) used in [TransMorph](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration).
 
@@ -17,20 +26,12 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
           return pickle.load(f)
 
   image, label = pkload("image.pkl")
+  # image: a preprocessed T1-weighted brain MRI volume. Shape: 160 x 192 x 224 Intensity: [0,1]
+  # label: the corresponding subcortical segmentations. Shape: 160 x 192 x 224
   ```
+- ***Label map:*** A detailed description of the labels and the corresponding indexing values is provided [here](https://github.com/junyuchen245/Preprocessed_IXI_Dataset/blob/main/label_info.txt).
 - ***Image size:*** Each image and label map has a size of `160 x 192 x 224`.
 - ***Normalization:*** The intensity values of each image volume are normalized into a range `[0,1]`.
-- ***Download:*** [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">]()
+## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">]()
 [Download Dataset (Currently Not Available)]()
 
-## :exclamation: License
-Our preprocessed IXI dataset is made available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. If you use this dataset, you should acknowledge the TransMorph paper:
-
-    @article{chen2021transmorph,
-    title={TransMorph: Transformer for unsupervised medical image registration},
-    author={Chen, Junyu and Du, Yong and He, Yufan and Segars, William P and Li, Ye and Frey, Eric C},
-    journal={arXiv preprint arXiv:2111.10480},
-    year={2021}
-    }
-
-**and** acknowledge the source of the IXI data: https://brain-development.org/ixi-dataset/ 
