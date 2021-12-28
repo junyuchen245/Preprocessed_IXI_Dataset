@@ -32,6 +32,6 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
 - ***Label map:*** A description of each label and the corresponding indexing value is provided [here](https://github.com/junyuchen245/Preprocessed_IXI_Dataset/blob/main/label_info.txt).
 - ***Image size:*** Each image and label map has a size of `160 x 192 x 224`.
 - ***Normalization:*** The intensity values of each image volume are normalized into a range `[0,1]`.
-## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">]()
-[Download Dataset (Currently Not Available)]()
+## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
+[Download Dataset (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
 
