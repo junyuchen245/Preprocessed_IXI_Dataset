@@ -6,7 +6,7 @@
 
     @article{chen2021transmorph,
     title={TransMorph: Transformer for unsupervised medical image registration},
-    author={Chen, Junyu and Du, Yong and He, Yufan and Segars, William P and Li, Ye and Frey, Eric C},
+    author={Chen, Junyu and Frey, Eric C and He, Yufan and Segars, William P and Li, Ye and Du, Yong},
     journal={arXiv preprint arXiv:2111.10480},
     year={2021}
     }
@@ -25,13 +25,29 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
       with open(fname, 'rb') as f:
           return pickle.load(f)
 
-  image, label = pkload("image.pkl")
+  image, label = pkload("subject_0.pkl")
   # image: a preprocessed T1-weighted brain MRI volume. Shape: 160 x 192 x 224 Intensity: [0,1]
-  # label: the corresponding subcortical segmentations. Shape: 160 x 192 x 224
+  # label: the corresponding subcortical segmentations. Shape: 160 x 192 x 224 Intensity: Integers
   ```
 - ***Label map:*** A description of each label and the corresponding indexing value is provided [here](https://github.com/junyuchen245/Preprocessed_IXI_Dataset/blob/main/label_info.txt).
 - ***Image size:*** Each image and label map has a size of `160 x 192 x 224`.
 - ***Normalization:*** The intensity values of each image volume are normalized into a range `[0,1]`.
+- ***Dataset structure:***
+    ```bash
+    IXI/Train/------
+            subject_0.pkl   <--- a T1 brain MR image and its label map
+            subject_4.pkl
+            .......
+    IXI/Val/------
+            subject_2.pkl
+            subject_5.pkl
+            .......
+    IXI/Test/------
+            subject_1.pkl
+            subject_3.pkl
+            .......
+    IXI/Test/atlas.pkl      <--- Atlas image and its label map
+    ```
 ## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
 [Download Dataset from Google Drive (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
 
