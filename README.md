@@ -33,7 +33,7 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
 - ***Image size:*** Each image and label map has a size of `160 x 192 x 224`.
 - ***Normalization:*** The intensity values of each image volume are normalized into a range `[0,1]`.
 ## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30px">](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
-[Download Dataset (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
+[Download Dataset from Google Drive (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
 
 ## Atals-to-Patient Registration
 Please visit https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/blob/main/TransMorph_on_IXI.md for instructions on network training, inference, and evaluation using this dataset.
