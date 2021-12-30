@@ -35,7 +35,7 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
 - ***Dataset structure:***
     ```bash
     IXI_data/Train/------
-            subject_0.pkl   <--- a T1 brain MR image and its label map
+            subject_0.pkl   <--- a brain T1 MR image and its label map
             subject_4.pkl
             .......
     IXI_data/Val/------
