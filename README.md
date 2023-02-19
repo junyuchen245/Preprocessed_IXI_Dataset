@@ -49,8 +49,8 @@ This repository contains a preprocessed IXI brain MRI dataset (https://brain-dev
     IXI_data/atlas.pkl      <--- Atlas image and its label map
     ```
 ## Download [<img src="https://github.com/junyuchen245/junyuchen245.github.io/blob/master/images/down_arrow.gif" width="30">](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
-[Download Dataset from Google Drive (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)
-
+[Download Dataset from Google Drive (1.44G)](https://drive.google.com/uc?export=download&id=1-VQewCVNj5eTtc3eQGhTM2yXBQmgm8Ol)\
+[Demographic information](https://drive.google.com/uc?export=download&id=168-gI32bk0BHbXJYghaLx1YoHQKDUTKr)
 ## Atals-to-Patient Registration
 Please visit https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/blob/main/TransMorph_on_IXI.md for instructions on network training, inference, and evaluation for medical image registration using this dataset.
 
